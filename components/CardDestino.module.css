@@ -1,0 +1,40 @@
+.card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 6px 20px rgba(32, 54, 77, 0.1);
+  transition:
+    transform 0.2s,
+    box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 28px rgba(32, 54, 77, 0.16);
+}
+
+.imagemContainer {
+  position: relative;
+  width: 100%;
+  height: 220px;
+}
+
+.imagem {
+  object-fit: cover;
+}
+
+.conteudo {
+  padding: 22px;
+}
+
+.conteudo h2 {
+  margin: 0 0 10px;
+  color: #20364d;
+  font-size: 22px;
+}
+
+.conteudo p {
+  margin: 0;
+  color: #637588;
+  line-height: 1.6;
+}

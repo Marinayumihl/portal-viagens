@@ -1,0 +1,54 @@
+.pagina {
+  min-height: 100vh;
+  padding: 70px 8%;
+  background-color: #f6f9fc;
+}
+
+.cabecalho {
+  max-width: 700px;
+  margin: 0 auto 50px;
+  text-align: center;
+}
+
+.cabecalho span {
+  display: inline-block;
+  margin-bottom: 12px;
+  color: #315f91;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.cabecalho h1 {
+  margin: 0 0 16px;
+  color: #20364d;
+  font-size: 45px;
+}
+
+.cabecalho p {
+  margin: 0;
+  color: #637588;
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+.grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 28px;
+}
+
+@media (max-width: 750px) {
+  .pagina {
+    padding: 50px 20px;
+  }
+
+  .cabecalho h1 {
+    font-size: 36px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
